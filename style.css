@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(248, 248, 52);
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    border: 5px solid black;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    line-height: 2.6em;
+    background: whitesmoke;
+    border-radius: 10px;
+
+}
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+@media(max-width:480px){
+    .button{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media(max-width:480px){
+    .container{
+        width: 80%;
+    }
+}
